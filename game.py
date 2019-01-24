@@ -9,7 +9,7 @@ class Rect:
     def __init__(self,pos,dimen):
         self.topleft = [ pos[0],pos[1] ]
         self.topright = [ pos[0]+dimen[0],pos[1] ]
-        self.bottomlM7111-1309eft = [ pos[0],pos[1]+dimen[1] ]
+        self.bottomleft = [ pos[0],pos[1]+dimen[1] ]
         self.bottomright = [ pos[0]+dimen[0],pos[1]+dimen[1] ]
 
     def intersects(self, rect1):

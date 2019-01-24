@@ -167,7 +167,7 @@ class App:
         # either first load or is complete
         if self.complete == True:
             self.reset()
-            self.readFromFile("/home/john/level.data",self.level)
+            self.readFromFile("levels.txt",self.level)
              
         # Do any screen updates
         if pyxel.btnp(pyxel.KEY_W):

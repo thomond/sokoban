@@ -53,7 +53,8 @@ class App:
         self.readFromFile("levels.txt")
         pyxel.run(self.update, self.draw)
         self.targetsleft=0
-M7111-1309M7111-1309M7111-1309    def readFromFile(self,fn, lvl=1):
+
+    def readFromFile(self,fn, lvl=1):
         x = 0
         y = 0
         marker = "\0"
